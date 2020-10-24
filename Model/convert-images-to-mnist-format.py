@@ -34,7 +34,7 @@ def run(args):
 		data_label = array('B')
 
 		FileList = []
-		for dirname in os.listdir(name[0])[1:]:
+		for dirname in os.listdir(name[0])[0:]:
 
 			path = os.path.join(name[0],dirname)
 		
